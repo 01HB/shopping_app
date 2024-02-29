@@ -9,7 +9,7 @@ const Layout = (props) => {
                 <title>{props.title}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <div className="relative flex w-full h-screen bg-white">
+            <div className="relative flex w-full h-screen overflow-auto bg-white">
                 <NavPane />
                 {props.children}
             </div>
